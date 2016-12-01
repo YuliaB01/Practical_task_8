@@ -1,0 +1,20 @@
+@import "vars";
+
+@import "utils";
+
+* {
+  transition: color, background, box-shadow, border .3s, .3s, .3s, .3s;
+}
+
+html {
+	height: @html-height;
+}
+body {
+	height: @html-height;
+	font-size: @page-font-size;
+	font-family: "Segoe UI Light", sans-serif;
+	margin: 0;
+}
+
+@import "layout";
+
